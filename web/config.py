@@ -15,7 +15,7 @@ class BaseConfig:
     SERVICE_BUS_CONNECTION_STRING ='Endpoint=sb://migrate-cloud.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=fRvMGn7B0aIO1gtrB/J5mnK7NlvgXlGinDmqnJa9az4=' #TODO: Update value
     SERVICE_BUS_QUEUE_NAME ='notificationqueue'
     ADMIN_EMAIL_ADDRESS: 'info@techconf.com'
-    SENDGRID_API_KEY = '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' #Configuration not required, required SendGrid Account
+    SENDGRID_API_KEY = '' #Configuration not required, required SendGrid Account
 
 class DevelopmentConfig(BaseConfig):
     DEBUG = True
