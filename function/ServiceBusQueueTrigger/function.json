@@ -6,7 +6,7 @@
       "type": "serviceBusTrigger",
       "direction": "in",
       "queueName": "notificationqueue",
-      "connection": "migratecloud_SERVICEBUS"
+      "connection": "SB_CONNECTION_STRING"
     }
   ]
 }
